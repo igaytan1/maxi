@@ -27,17 +27,17 @@ h3{
     font-size: 3em;
 }
 
-div.content {
+/* div.content {
     margin:0 auto;
     width:900px;
-} 
+}  */
 
 /* .container {
     width: 80%;
     margin: 0 auto;
 } */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     h1 {
         font-size: 1.5em;
     }
@@ -47,11 +47,11 @@ div.content {
     }
 
     
-
+} */
     /* .container {
         width: 90%;
     } */
-}
+
 
 
 .typing {
