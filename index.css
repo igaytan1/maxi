@@ -10,6 +10,7 @@ body {
     font-family: Arial, sans-serif; /* Default font */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
+    min-width: 1000px;
     
 }
 
@@ -20,6 +21,11 @@ h1 {
 h2 {
     font-size: 1.5em;
 }
+
+div.content {
+    margin:0 auto;
+    width:900px;
+} 
 
 .container {
     width: 80%;
@@ -87,7 +93,7 @@ h2 {
 }
 .time-unit span {
     display: block;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
 }
 
