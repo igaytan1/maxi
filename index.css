@@ -12,6 +12,7 @@ body {
     padding: 0; /* Remove default padding */
     min-width: 1000px;
     height: 100vh;
+    overflow-x: hidden;
 
 }
 
@@ -117,8 +118,15 @@ h3{
     padding: 10%; 
     position: relative;
     padding-left: 15%;
+    box-sizing: border-box;
    
     line-height: 1.5;
     left: 0;
     top: 0;
+}
+
+@media (max-width: 600px) {
+    #centeredText {
+        padding: 5% 2%; /* Adjust padding for smaller screens */
+    }
 }
