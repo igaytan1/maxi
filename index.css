@@ -1,0 +1,51 @@
+/* Add the Google Font link to your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+
+body { 
+    background-image: url('heart-hearts.gif');
+    background-size: 85% 100%; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    font-family: Arial, sans-serif; /* Default font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    
+}
+
+.typing {
+    display: inline;
+    border-right: 3px solid #000;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 9s steps(60, end), blink-caret 0.85s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}
+
+
+#centeredText {
+    /* Styles for the centered text */
+    text-align: center;
+    z-index: 1;
+    padding-top: 10%; /* Adjust padding for responsiveness */
+    position: relative;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+}
