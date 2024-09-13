@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif; /* Default font */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
-    min-width: 1500px;
+    min-width: 1000px;
     
 }
 
@@ -20,6 +20,10 @@ h1 {
 
 h2 {
     font-size: 1.5em;
+}
+
+h3{
+    font-size: 3em;
 }
 
 div.content {
@@ -32,13 +36,13 @@ div.content {
     margin: 0 auto;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 1000px) {
     h1 {
         font-size: 1.5em;
     }
 
     h2 {
-        font-size:0.5em;
+        font-size:1.5em;
     }
 
     
