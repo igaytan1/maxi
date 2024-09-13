@@ -17,13 +17,18 @@ body {
 
 h1 {
     font-size: 2em;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 h2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
     font-size: 1.5em;
 }
 
 h3{
+    margin-bottom: 1%;
     font-size: 3em;
 }
 
@@ -68,7 +73,7 @@ h3{
 }
 .time-unit span {
     display: block;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -80,13 +85,13 @@ h3{
     flex-direction: column;
     justify-content: center;
     z-index: 1;
-
+    margin-left: 3%;
 
    
 
     /* padding-top: 10%; Adjust padding for responsiveness */
     padding: 10%; 
-    padding-left: 10%;
+    /* padding-left: 10%; */
     position: relative;
     line-height: 1.5;
  
