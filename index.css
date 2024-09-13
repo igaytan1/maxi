@@ -43,19 +43,13 @@ div.content {
     padding: 20px; /* Add some padding */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     #centeredText {
         padding-left: 5%; /* Adjust padding for smaller screens */
         padding-right: 5%; /* Adjust padding for smaller screens */
     }
 
-    h1 {
-        font-size: 1.5em;
-    }
-
-    h2 {
-        font-size:1.5em;
-    }
+ 
 
     
 
