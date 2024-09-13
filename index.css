@@ -67,11 +67,11 @@ div.content {
     }
 
     h1 {
-        font-size: 1.0em; /* Adjust font size for smaller screens */
+        font-size: 0.5em; /* Adjust font size for smaller screens */
     }
-    
+
     h2 {
-        font-size: 1.0em; /* Adjust font size for smaller screens */
+        font-size: 0.5em; /* Adjust font size for smaller screens */
     }
     .time-unit {
         display: block; /* Stack time units vertically */
