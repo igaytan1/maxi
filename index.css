@@ -6,6 +6,7 @@ body {
     background-image: url('heart-hearts.gif');
     background-size: 85% 100%; /* Cover the entire viewport */
     background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
     font-family: Arial, sans-serif; /* Default font */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
