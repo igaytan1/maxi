@@ -74,24 +74,22 @@ h3{
 
 #centeredText {
     /* Styles for the centered text */
-    text-align: left;
+    text-align: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 1;
 
-    max-width: 90%; /* Adjust this value as needed */
-    margin: 0 auto; /* Center the container horizontally */
+
+   
 
     /* padding-top: 10%; Adjust padding for responsiveness */
     padding: 10%; 
-    position: absolute;
     padding-left: 15%;
-    margin-left: 0px;
-   
+    position: relative;
     line-height: 1.5;
-    left: 0;
-    top: 0;
+ 
 }
 
 
