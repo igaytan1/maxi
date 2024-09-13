@@ -4,7 +4,7 @@
 
 body { 
     background-image: url('heart-hearts.gif');
-    background-size: 85% 100%; /* Cover the entire viewport */
+    background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; 
     font-family: Arial, sans-serif; /* Default font */
@@ -27,32 +27,6 @@ h2 {
 h3{
     font-size: 3em;
 }
-
-/* div.content {
-    margin:0 auto;
-    width:900px;
-}  */
-
-/* .container {
-    width: 80%;
-    margin: 0 auto;
-} */
-
-/* @media (max-width: 600px) {
-    h1 {
-        font-size: 1.5em;
-    }
-
-    h2 {
-        font-size:1.0em;
-    }
-
-    
-} */
-    /* .container {
-        width: 90%;
-    } */
-
 
 
 .typing {
@@ -103,13 +77,13 @@ h3{
     font-weight: bold;
 }
 
-
 #centeredText {
     /* Styles for the centered text */
     text-align: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     max-width: 90%; /* Adjust this value as needed */
     margin: 0 auto; /* Center the container horizontally */
