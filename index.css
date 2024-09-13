@@ -79,6 +79,7 @@ h3{
 
 #centeredText {
     /* Styles for the centered text */
+    size: 85% 100%;
     text-align: center;
     align-items: center;
     display: flex;
